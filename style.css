@@ -50,6 +50,7 @@
 }
 .main .container{
     background-color: var(--header-bg);
+    margin: 0;
 }
 .header{
     padding: 54px 40px;
@@ -303,4 +304,25 @@ input:hover::-webkit-input-placeholder{
 .ch{
     width: 25px;
     height: 25px;
+}
+@media (max-width: 1024px){
+    .promo .container{
+        margin: 0;
+    }
+    .main .container{
+        margin: 0;
+        padding: 30px 0px 100px 50px;
+    }
+    .promo_img{
+        display: none;
+    }
+    .promo_title{
+        width: 100%;
+    }
+    .promo_text{
+        width: 50%;
+    }
+    .header{
+        padding: 24px 20px;
+    }
 }
