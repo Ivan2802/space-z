@@ -48,6 +48,9 @@
 .main{
     background-color: var(--header-bg);
 }
+.main .container{
+    background-color: var(--header-bg);
+}
 .header{
     padding: 54px 40px;
     display: flex;
@@ -76,6 +79,7 @@
     padding: 60px 0px 182px 166px;
 }
 .promo_img{
+    width: 40%;
     position: absolute;
     right: 42px;
     top: -30px;
@@ -142,6 +146,7 @@
     background-color: #131313;
 }
 .advantage .container{
+    background-color: #131313;
     padding: 85px 45px 79px 43px;
     display: flex;
     justify-content: space-between;
@@ -247,6 +252,7 @@
     background: #F0F0F0;
 }
 .contact .container{
+    background: #F0F0F0;
     padding: 100px 40px 68px 40px;
     display: flex;
     justify-content: space-between;
