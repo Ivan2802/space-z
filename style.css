@@ -41,7 +41,7 @@
 }
 /* ------------------------ */
 .container{
-    width: 1040px;
+    max-width: 1040px;
     margin: 0 auto;
 }
 /* ------------------------ */
@@ -276,7 +276,7 @@
     font-family: 'Verdana_R';
 }
 .form_el{
-    width: 440px;
+    max-width: 440px;
     padding: 16px 23px;
     font-family: 'Verdana_R';
     color: #000;
@@ -286,7 +286,7 @@
     gap: 10px;
 }
 .sm{
-    width: 215px;
+    max-width: 215px;
 }
 input::-webkit-input-placeholder {
     color: #000;
@@ -305,24 +305,100 @@ input:hover::-webkit-input-placeholder{
     width: 25px;
     height: 25px;
 }
-@media (max-width: 1024px){
-    .promo .container{
-        margin: 0;
+@media (max-width: 975px){
+
+    .map_img{
+        height: 100%;
+        padding-right: 10px;
     }
-    .main .container{
-        margin: 0;
-        padding: 30px 0px 100px 50px;
-    }
+
+}
+@media (max-width: 800px){
+
     .promo_img{
         display: none;
     }
-    .promo_title{
+    .advantage .container{
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .map_second-section{
+        display: block;
+    }
+    .map_take{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .map_notake{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .map_notake{
+        margin-top: 40px;
+    }
+    .contact .container{
+        display: block;
+    }
+    .contact_text_block{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .form{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .text_block_text{
+        margin-top: 20px;
+    }
+    .contact_text_block{
+        margin-bottom: 50px;
+    }
+    .contact .promo_button{
+        margin: 0 auto;
+
+    }
+
+}
+@media (max-width: 540px){
+
+    .map_img{
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .map_first-section{
+        display: block;
+    }
+    .header_menu{
+        display: block;
+        width: 100px;
+    }
+    .map .container{
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+    .promo .container{
+        padding-top: 40px;
+        padding-bottom: 80px;
+        padding-left: 70px;
+    }
+    .contact .container{
+        padding-top: 50px;
+    }
+    .sm{
+        max-width: 440px;
+        margin-bottom: 10px;
+    }
+    .form_el{
         width: 100%;
     }
-    .promo_text{
-        width: 50%;
+    .form{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
-    .header{
-        padding: 24px 20px;
-    }
+
 }
